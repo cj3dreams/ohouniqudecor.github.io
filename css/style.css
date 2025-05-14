@@ -1,10 +1,10 @@
 <<<<<<< HEAD
 /********** Template CSS **********/
 :root {
-    --primary: #FF800F;
-    --secondary: #001064;
-    --light: #F6F7F8;
-    --dark: #010A35;
+    --primary: #EF3737;    /* Красный */
+    --secondary: #000000;  /* Чёрный */
+    --light: #FFFFFF;      /* Белый */
+    --dark: #000000;       /* Чёрный */
 }
 
 .back-to-top {
@@ -17,6 +17,9 @@
 
 .bg-black {
     background-color: #000 !important;
+}
+.bg-red {
+    background-color: #EF3737 !important;
 }
 
 /*** Spinner ***/
@@ -59,6 +62,10 @@
 .btn-square {
     width: 38px;
     height: 38px;
+}
+
+h1.display-6 {
+    color: black;
 }
 
 .btn-sm-square {
